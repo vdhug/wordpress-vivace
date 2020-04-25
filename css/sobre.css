@@ -1,0 +1,40 @@
+.sobre-vivace{
+	padding-top: 60px;
+}
+.sobre-vivace p{
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 1em;
+	padding-right: 40px;
+}
+
+.valores{
+	padding: 60px 0;
+}
+
+.valores-lista li{
+	background-color: #E9E6DF;
+	text-align: center;
+	padding: 0 40px;
+}
+.valores-lista li h3{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top:20px;
+}
+.valores-lista li h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 6px auto;
+}
+
+.foto-equipe{
+	padding-top: 40px;
+}
+

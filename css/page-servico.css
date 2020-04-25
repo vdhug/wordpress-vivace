@@ -1,0 +1,30 @@
+.servicos-interno{
+	padding-top: 60px;
+	margin-top: 92px;
+	}
+.servicos-interno p{
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 1em;
+	padding-right: 40px;
+}
+.subtitulo-interno-servicos{
+	text-align: center;
+	font-size: 24px;
+	line-height:30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.subtitulo-interno-servicos:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px auto;
+	
+}

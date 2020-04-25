@@ -1,0 +1,331 @@
+/* Estilos Gerais */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+
+/*Botão*/
+
+.btn{
+
+
+	text-align: center;
+	border: 3px solid #041408;
+	color: #041408;
+	padding: 10px 30px;
+	font-size: 1em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	line-height: 1.5;
+	font-weight: 700;
+}
+
+.btn:hover{
+	background: #041408;
+	color: #E9E6DF;
+}
+
+/*Subtitulo */
+
+
+.subtitulo{
+	font-size: 24px;
+	line-height:30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.subtitulo:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px auto;
+}
+
+
+.subtitulo-interno{
+
+	font-size: 24px;
+	line-height:30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px 0;
+}
+
+.header{
+	width: 100%;
+	background: #E9E6DF;
+	padding: 15px 0;
+	z-index: 10;
+
+}
+
+
+.header_menu{
+	text-align: right;
+}
+
+.header_menu ul li{
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.header_menu ul li a{
+
+	font-size: 1.266em;
+	text-transform: capitalize;
+	padding: 10px;
+	color: #041408;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.header_menu ul li a:hover{
+	color: #9e9b9c;
+	font-weight: 600;
+}
+.header_menu ul li a.menu_ativo{
+	border-bottom: 4px solid #041408;
+}
+
+
+
+
+
+/* Introdução Interna*/
+
+.introducao-interna{
+	width: 100%;
+	height: 160px;
+	text-align: center;
+	color:#000;
+	padding-top: 30px;
+	margin-top: 40px;
+}
+.introducao-interna h1{
+
+	font-weight: 700;
+	font-size: 2.281em
+}
+.introducao-interna h1:after{
+	
+	content: "";
+	display: block;
+	background: #041408;
+	margin-top: 10px;
+	height: 3px;
+	width: 40px;
+	margin: 6px auto 10px auto;
+}
+
+
+.footer {
+	margin-top: 2px;
+	padding: 40px;
+	background: #041408;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	color: #E9E6DF;
+}
+
+.footer a {
+	color: #E9E6DF;
+}
+
+.footer-titulo {
+	font-size: 1.266em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.footer-titulo::after {
+	display: block;
+	content: "";
+	height: 3px;
+	width: 30px;
+	background: #E9E6DF;
+	margin: 10px 0;
+}
+
+.footer-contato li {
+	padding: 5px 0;
+}
+.descricao {
+	font-size: 1em;
+	line-height: 1.5;
+}
+.teste{
+	display: inline-block;
+	padding-right: 15px;
+
+}
+.teste  a{
+	border: 3px solid #e9e6df;
+	display: block;
+	padding: 10px;
+}
+.teste a:hover{
+	border-color: #FFF;
+}
+
+
+.copyrigth {
+	padding: 20px 40px;
+	background: #9e9b9c;
+	color: #041408;
+	font-size: 1.125em;
+}
+
+
+/* Orçamento*/
+
+.orcamento{
+	background: #e9e6df;
+	width: 100%;
+	margin-top: 60px;
+	padding: 40px 0;
+}
+.orcamento h2{
+	color:  #041408;
+}
+.orcamento h2:after{
+	background:#041408;
+}
+
+.form{
+	padding-right: 60px;
+}
+.form label{
+	display: block;
+	color: #000;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size:18px;
+	line-height: 25px;
+	margin-bottom: 4px;
+}
+.form input{
+	display: block;
+	width: 100%;
+	border: 4px solid #041408;
+	background: none;
+	color: #000;
+	padding: 7px 10px;
+	margin-bottom: 10px;
+	outline: none;
+	font-size: 14px;
+	font-family:Georgia, "Times New Roman", serif; 
+}
+.form textarea{
+	display: block;
+	width: 100%;
+	height: 120px;
+	border: 4px solid #041408;
+	background: none;
+	color: #000;
+	padding: 7px 10px;
+	margin-bottom: 20px;
+	outline: none;
+	font-size: 14px;
+	font-family:Georgia, "Times New Roman", serif; 
+}
+.form button{
+	padding: 7px 40px;
+	background: none;
+}
+
+
+
+/* Campos Ocultos Formulário*/
+
+.nao-aparece{
+	visibility: hidden;
+	position: absolute;
+	height: 0px;
+}
+
+
+
+
+/* JavaScript */
+
+.js [data-slide] {
+	position: relative;
+}
+
+.js [data-slide] > * {
+	position: absolute;
+	top: 0px;
+	opacity: 0;
+}
+
+.js [data-slide] > .active {
+	position: relative;
+	opacity: 1;
+	transition: opacity 500ms;
+}
+
+.js [data-slide-nav] {
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 4px;
+	border: none;
+	padding: 0px;
+	border-radius: 6px;
+	text-indent: -99px;
+	overflow: hidden;
+	background: #1d1d1d;
+}
+
+.js [data-slide-nav] button.active {
+	background: #fec63e;
+}
+
+.js [data-anime]{
+	opacity: 0;
+}
+.js .fadeInDown{
+	transform: translate3d(0, -20px, 0);
+}
+.js .anime{
+	opacity: 1;
+	transform: none;
+	transition: opacity 800ms, transform 800ms;
+}
