@@ -26,13 +26,13 @@
 		</a>
 		<nav>
 		<?php
-						$args = array(
-							'menu' => 'principal',
-							'theme_location' => 'menu-principal',
-							'container' => false
-						);
-						wp_nav_menu( $args );
-					?>
+			$args = array(
+				'menu' => 'principal',
+				'theme_location' => 'menu-principal',
+				'container' => false
+			);
+			wp_nav_menu( $args );
+		?>
 		
 		</nav>
 	</header>
