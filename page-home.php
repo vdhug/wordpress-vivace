@@ -98,8 +98,10 @@
 			<p>
 				Reduza até <span>95%</span> na sua conta de luz!
 			</p>
-			<a class="btn" href="#">Na sua casa</a>
-			<a class="btn" href="#">Na sua empresa</a>
+			<div>
+				<a class="btn" href="#">Na sua casa</a>
+				<a class="btn" href="#">Na sua empresa</a>
+			</div>
 		</section>
 
 		<section class="container contato-principal">
