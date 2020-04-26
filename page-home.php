@@ -8,14 +8,14 @@
 		<img src="<?php the_field('slider_home'); ?>" alt="">
 	</section>
 
-	<section class="container sobre" >
+	<section class="main-container sobre" >
+		<div class="sobre-imagem" style="background-image: url('<?php the_field('imagem_sobre_home'); ?>');" alt="" >
+</div>
 		<div class="conteudo">
 			<h1 class="titulo"><?php the_field('titulo_sobre_home'); ?></h1>
-			<p class="texto"><?php the_field('texto_sobre_home'); ?>
-		</p>
-	</div>
-	<img class="sobre-imagem" src="<?php the_field('imagem_sobre_home'); ?>" alt="" >
-</section>
+			<p class="texto"><?php the_field('texto_sobre_home'); ?></p>
+		</div>
+	</section>
 
 
 <section class="estatisticas">
@@ -65,7 +65,7 @@
 	</ul>   
 </section>
 
-<section class="container servicos-principal">
+<section class="main-container servicos-principal">
 	<h1 class="titulo"><?php the_field('servicos_home_titulo'); ?></h1>
 	<p class="texto">
 		<?php the_field('servicos_home_texto'); ?>
@@ -73,28 +73,26 @@
 	<ul class="servicos-lista-principal">
 
 		<?php
-		$args = array (
-			'post_type' => 'servicos',
-			'order'   => 'ASC',
-			'posts_per_page' => 3
-		);
-		$the_query = new WP_Query ( $args );
+			$args = array (
+				'post_type' => 'servicos',
+				'order'   => 'ASC',
+				'posts_per_page' => 3
+			);
+			$the_query = new WP_Query ( $args );
 		?>
 
-		<?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-
-			
-			<li class="servico-principal">
-				<img src="<?php the_field('foto_servico'); ?>" alt="<?php the_title(); ?>">
-				<span><?php the_title(); ?></span>
-				<p class="descricao"><?php the_field('resumo_servico'); ?></p>
-				<a class="btn" href="<?php the_permalink(); ?>">Saiba mais</a>
-			</li>
-		<?php endwhile; else : endif; ?>
+			<?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+				<li class="servico-principal">
+					<img src="<?php the_field('foto_servico'); ?>" alt="<?php the_title(); ?>">
+					<span><?php the_title(); ?></span>
+					<p class="descricao"><?php the_field('resumo_servico'); ?></p>
+					<a class="btn" href="<?php the_permalink(); ?>">Saiba mais</a>
+				</li>
+			<?php endwhile; else : endif; ?>
 		<?php wp_reset_query(); wp_reset_postdata(); ?>
 
-		<ul>
-		</section>
+	<ul>
+</section>
 
 		<section class="principal-produto">
 			<p>

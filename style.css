@@ -36,6 +36,13 @@ img{
 	max-width: 100%;
 }
 
+.main-container {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 0px;
+	position: relative;
+}
+
 /*Botão*/
 
 .btn{
@@ -129,7 +136,7 @@ img{
 	text-transform: capitalize;
 	padding: 10px;
 	color: #041408;
-	font-weight: bold;
+	font-weight: 600;
 	margin-right: 10px;
 }
 .menu li a:hover {
@@ -175,7 +182,12 @@ img{
 }
 
 .sobre-imagem {
-	background: beige;
+	 /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+
 }
 
 /* Estatisticas */
@@ -327,7 +339,7 @@ img{
 }
 
 .servico-principal img {
-	height: 200px;
+	min-height: 200px;
 	background: beige;
 }
 
