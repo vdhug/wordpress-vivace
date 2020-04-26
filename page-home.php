@@ -9,7 +9,7 @@
 	</section>
 
 	<section class="container sobre" >
-		<div class="sobre-imagem" style="background-image: url('<?php the_field('imagem_sobre_home'); ?>');" alt="" ></div>
+		<div class="imagem-background" style="background-image: url('<?php the_field('imagem_sobre_home'); ?>');" alt=""></div>
 		<div class="conteudo">
 			<h1 class="titulo"><?php the_field('titulo_sobre_home'); ?></h1>
 			<p class="texto"><?php the_field('texto_sobre_home'); ?></p>

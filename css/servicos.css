@@ -1,34 +1,33 @@
 .servicos-interno{
-
-	width: 100%;
 	padding: 40px 0;
 
 }
 
+.servicos-lista {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 20px;
+	row-gap: 20px;
+}
 
-.servicos-lista li{
+.servicos-lista li {
 	background: #e9e6df;
 	text-align: center;
 }
 
-}
 
-.servicos-lista li img{
-	margin: 0 auto;
-	
-
+.servicos-lista li div {
+	height: 280px;
 
 }
 
 .servicos-lista a{
-
-
 	color:#000; 
 }
 
 
 
-.servicos-lista li h3{
+.servicos-lista li h3 {
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 25px;
@@ -39,7 +38,7 @@
 	padding-right: 20px;
 }
 
-.servicos-lista li h3:after{
+.servicos-lista li h3:after {
 	content: "";
 	display: block;
 	width: 60px;
@@ -49,15 +48,14 @@
 
 }
 
-.servicos-lista li p{
+.servicos-lista li p {
 	color:#000;
 	padding: 10px 20px 20px 20px
 }
 
 
-.servicos-icone{
+.servicos-icone {
 	background: #e9e6df;
-	padding: 10px;
 }
 
 .servicos-lista :last-child  li {
