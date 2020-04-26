@@ -23,7 +23,7 @@
 			<div class="contato-info">
 				<label class="label-email" for="email">
 					<span class="imagem-background" ></span>
-					Email
+					Email - Teste
 				</label>
 				<a href="mailto:contato@vivace.com">contato@vivace.com</a>
 				<label for="telefone">Telefone</label>
