@@ -36,13 +36,6 @@ img{
 	max-width: 100%;
 }
 
-.main-container {
-	max-width: 980px;
-	margin: 0 auto;
-	padding: 0px;
-	position: relative;
-}
-
 /*Botão*/
 
 .btn{
@@ -182,7 +175,6 @@ img{
 }
 
 .sobre-imagem {
-	 /* The image used */
 	background-color: #cccccc; /* Used if the image is unavailable */
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
@@ -415,6 +407,7 @@ img{
 	color:#000;
 	padding-top: 30px;
 	margin-top: 40px;
+	background: #9e9b9c;
 }
 .introducao-interna h1{
 

@@ -8,9 +8,8 @@
 		<img src="<?php the_field('slider_home'); ?>" alt="">
 	</section>
 
-	<section class="main-container sobre" >
-		<div class="sobre-imagem" style="background-image: url('<?php the_field('imagem_sobre_home'); ?>');" alt="" >
-</div>
+	<section class="container sobre" >
+		<div class="sobre-imagem" style="background-image: url('<?php the_field('imagem_sobre_home'); ?>');" alt="" ></div>
 		<div class="conteudo">
 			<h1 class="titulo"><?php the_field('titulo_sobre_home'); ?></h1>
 			<p class="texto"><?php the_field('texto_sobre_home'); ?></p>
@@ -65,7 +64,7 @@
 	</ul>   
 </section>
 
-<section class="main-container servicos-principal">
+<section class="container servicos-principal">
 	<h1 class="titulo"><?php the_field('servicos_home_titulo'); ?></h1>
 	<p class="texto">
 		<?php the_field('servicos_home_texto'); ?>

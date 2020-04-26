@@ -1,21 +1,27 @@
 .sobre-vivace{
-	padding-top: 60px;
+	margin-top: 60px;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
 }
-.sobre-vivace p{
-	font-size: 18px;
-	line-height: 25px;
+.sobre-vivace p {
 	margin-bottom: 1em;
 	padding-right: 40px;
 }
 
-.valores{
+.valores {
 	padding: 60px 0;
+}
+
+.valores-lista {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 20px;
 }
 
 .valores-lista li{
 	background-color: #E9E6DF;
 	text-align: center;
-	padding: 0 40px;
+	padding: 0px 40px 20px;
 }
 .valores-lista li h3{
 	font-weight: bold;
