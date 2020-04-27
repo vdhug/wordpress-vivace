@@ -21,10 +21,10 @@
 
 				<?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 					<li>
+						<div class="imagem-background" style="background-image: url('<?php the_field('foto_servico'); ?>');"
+							alt="<?php the_title(); ?>">
+						</div>
 						<a href="<?php the_permalink(); ?>">
-							<div class="imagem-background" style="background-image: url('<?php the_field('foto_servico'); ?>');"
-								alt="<?php the_title(); ?>">
-							</div>
 							<h3><?php the_title(); ?></h3>
 							<p><?php the_field('resumo_servico'); ?></p>
 						</a>

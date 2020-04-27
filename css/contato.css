@@ -10,7 +10,7 @@
 }
 
 .orcamento label {
-	display: block;
+	display: inline-block;
 	font-size: 1em;
 	line-height: 1em;
 	margin-bottom: 5px;
@@ -51,12 +51,16 @@
 }
 
 .contato-info a, .contato-info p {
-	padding: 5px 0;
+	padding: 10px 0;
     font-size: 1em;
     display: block;
-    margin-bottom: 10px;
+	margin-bottom: 30px;
+	color: #041408;
+
 }
 
-.label-email span {
-	background: url("../email.svg");
+.contato-info img {
+	display: inline-block;
+	width: 20px;
+	height: 15px;
 }

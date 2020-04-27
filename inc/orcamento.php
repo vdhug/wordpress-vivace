@@ -16,20 +16,22 @@
 				<input type="text" name="dontchange" class="nao-aparece" value="http://">
 
 				<label for="mensagem">Mensagem</label>
-				<textarea class="texto" id="mensagem" name="mensagem" required placeholder="Descreva o serviço que você precisa"></textarea>
+				<textarea class="texto" id="mensagem" rows="5" name="mensagem" required placeholder="Descreva o serviço que você precisa"></textarea>
 				<button id="enviar" name="enviar" type="submit" class="btn">Enviar</button> 
 			</form>
 
 			<div class="contato-info">
-				<label class="label-email" for="email">
-					<span class="imagem-background" ></span>
-					Email - Teste
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/email.svg" alt="">
+				<labelfor="email">
+					Email
 				</label>
 				<a href="mailto:contato@vivace.com">contato@vivace.com</a>
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/telefone.svg" alt="">
 				<label for="telefone">Telefone</label>
 				<a href="tel:+5568999999999">99999-9999</a>
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/endereco.svg" alt="">
 				<label for="endereco">Endereço</label>
-				<p>Rio Branco - Acre - Brazil</p>
+				<p class="texto">Rio Branco - Acre - Brazil</p>
 			</div>
 
 		</div>
