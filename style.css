@@ -484,17 +484,29 @@ img{
 
 /* Orçamento*/
 
+.contato-orcamento {
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
 .orcamento{
 	background: #e9e6df;
 	width: 100%;
 	margin-top: 60px;
 	padding: 40px 0;
 }
-.orcamento h2{
+
+.orcamento-titulo {
 	color:  #041408;
 }
-.orcamento h2:after{
+
+.orcamento-titulo:after{
 	background:#041408;
+}
+
+#form_orcamento label {
+	display: block;
+	margin-bottom: 5px;
 }
 
 /* Campos Ocultos Formulário*/

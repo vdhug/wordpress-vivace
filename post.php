@@ -25,8 +25,6 @@
                         <li class="tag post-tag">Placa solar</li>
                     </ul>
                 </div>
-                
-                
             </div>
         </div>
     </section>
