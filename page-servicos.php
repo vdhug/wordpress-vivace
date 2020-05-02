@@ -20,7 +20,7 @@
 				?>
 
 				<?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-					<li>
+					<li class="servico">
 						<div class="imagem-background" style="background-image: url('<?php the_field('foto_servico'); ?>');"
 							alt="<?php the_title(); ?>">
 						</div>

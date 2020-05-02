@@ -22,9 +22,7 @@
 
 			<div class="contato-info">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/email.svg" alt="">
-				<labelfor="email">
-					Email
-				</label>
+				<label for="email">Email</label>
 				<a href="mailto:contato@vivace.com">contato@vivace.com</a>
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/telefone.svg" alt="">
 				<label for="telefone">Telefone</label>

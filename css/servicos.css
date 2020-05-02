@@ -10,46 +10,49 @@
 	row-gap: 20px;
 }
 
-.servicos-lista li {
+.servico {
 	background: #e9e6df;
 	text-align: center;
 }
 
 
-.servicos-lista li div {
+.servico div {
 	height: 280px;
 
 }
 
-.servicos-lista a{
-	color:#000; 
+.servico a {
+	color: #041408;
 }
 
 
 
-.servicos-lista li h3 {
+.servico h3 {
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 25px;
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	margin-top:20px;
-	color:#000;
+	color: inherit;
 	padding-right: 20px;
 }
 
-.servicos-lista li h3:after {
+.servico h3:after {
 	content: "";
 	display: block;
 	width: 60px;
 	height: 3px;
-	background: #000;
+	background: #666;
 	margin: 2px auto;
-
 }
 
-.servicos-lista li p {
-	color:#000;
+.servico a:hover {
+	color: #666;
+}
+
+.servico p {
+	color: inherit;
 	padding: 10px 20px 20px 20px
 }
 
