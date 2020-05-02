@@ -12,13 +12,12 @@
 	<section class="container clientes-interno" >
 
 		<?php if(have_rows('clientes')): while(have_rows('clientes')) : the_row(); ?>
-		<h2 class="subtitulo-interno-clientes"> <?php the_sub_field('titulo_cliente'); ?> </h2>
-		<div class="grid-6">
-			<img src="<?php the_sub_field('imagem_cliente'); ?>" alt="<?php the_sub_field('legenda_imagem'); ?>">
-		</div>
-		<div class="grid-10">
-<?php the_sub_field('texto_cliente'); ?>
-
+		<div class="cliente">
+			<img class="cliente-imagem" src="<?php the_sub_field('imagem_cliente'); ?>" alt="<?php the_sub_field('legenda_imagem'); ?>">
+			<div>
+				<label class="cliente-nome"> <?php the_sub_field('titulo_cliente'); ?></label>
+				<p class="texto cliente-descricao"><?php the_sub_field('texto_cliente'); ?></p>
+			</div>
 		</div>
 		<?php endwhile; else : endif; ?>
 
