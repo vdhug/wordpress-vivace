@@ -7,18 +7,12 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-
-
-	<section class="container servicos-interno" >
+	<section class="servicos-interno" >
+		<div class="servico-imagem imagem-background" style="background-image: url('<?php the_field('foto_servico'); ?>');" alt=""></div>
+		<h1 class="servico-titulo"><?php the_title(); ?></h1>
 		
-		<h2 class="subtitulo-interno-servicos"><?php the_title(); ?></h2>
-		<div class="grid-6">
-			<img src="<?php the_field('foto_servico'); ?>" alt="<?php the_title(); ?>">
-		</div>
-		<div class="grid-10">
-
+		<div class="container">
 			<?php the_field('texto_servico'); ?>
-			
 		</div>
 
 	</section>
