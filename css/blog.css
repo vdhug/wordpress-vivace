@@ -76,7 +76,8 @@
 }
 
 .post {
-    margin-top: 40px;
+    margin: 80px 0;
+
 }
 
 .post-image {
@@ -93,13 +94,13 @@
 .post-description {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    margin: 0px 0 40px 0;
 }
 
 .post-autor {
-    font-size: .6em;
-    opacity: .8;
+    font-size: .5em;
     text-transform: uppercase;
-    font-weight: 600;
     margin-right: 40px;
 }
 
