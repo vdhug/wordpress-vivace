@@ -27,8 +27,10 @@
     margin-bottom: 20px;
     padding: 0px;
 }
-.blog-list-content .title a{ 
-    font-size: 18px; 
+.blog-list-content .title a { 
+    display: block;
+    font-size: 1.3em; 
+    padding: 10px 0;
     font-weight: bold;  
     color: #666;
     transition: all .50s;
